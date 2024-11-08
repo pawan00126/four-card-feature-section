@@ -10,6 +10,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    
 }
 
 body{
@@ -21,17 +22,12 @@ body{
     text-align: center;
     /* border: 2px solid red; */
     margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
 }
 
 .heading{
     font-size: 30px;
     /* border: 2px solid black; */
     padding: 5px;
-    padding-left: 25%;
-    padding-right: 25%;
     line-height: 40px;
 }
 
@@ -48,7 +44,7 @@ body{
     margin-top: 20px;
     padding: 25px 30%;
     line-height: 30px;
-    /* width: 30vw; */
+    
     font-weight: 200;
     font-size: 20px;
     
@@ -75,14 +71,13 @@ body{
     text-align: start;
     padding-left: 25px;
     padding-right: 25px;
-    box-shadow: 2px 2px 15px;
+    box-shadow: 1px 1px 15px rgba(0,0,0,0.6);
     border-radius: 10px;
     margin: 10px;
     height: 30vh;
     width: 20vw;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 30px;
+
+    position: relative;
     
 }
 
@@ -98,8 +93,11 @@ body{
     /* margin-top: 20px; */
     height: 7vh;
     width: 3vw;
-    /* position: relative; */
-    /* right: 10px; */
+
+    position: absolute;
+    bottom: 20px;
+    right:30px;
+    
 }
 
 
@@ -115,20 +113,24 @@ body{
 }
 
 #box-1{
-    padding-left: 32px;
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+#box-2{
+    border-top: 4px solid hsl(34, 97%, 64%);
 }
 
 
 #card-1{
-    margin-right: 2vw;
+    border-top : 4px solid hsl(180, 62%, 55%);
 }
 
 
 #card-3{
-    /* border : 2px solid red; */
-    margin-left: 2vw;
+    border-top: 4px solid hsl(212, 86%, 64%);
     
 }
+
 
 
 }
@@ -231,8 +233,6 @@ body{
     #box-2{
         border-top: 4px solid hsl(34, 97%, 64%);
     }
-    
-    
     
     #card-3{
         border-top: 4px solid hsl(212, 86%, 64%);
